@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+/* =========== start hero-banner =========== */
+.hero-banner {
+    background-image: url("../image/banner.jpg");
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-banner .cover-bg {
+    width: 100%;
+    height: 80vh;
+    backdrop-filter: blur(6px);
+    background-color: #0000005b;
+    display: flex;
+    align-items: center;
+}
+
+.hero-banner .cover-bg .item h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.hero-banner .cover-bg .item h2 {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.hero-banner .cover-bg .item h2 span {
+    color: #FF0000;
+}
+
+.hero-banner .cover-bg .item h3 {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.hero-banner .cover-bg .item .button-order {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 16px 40px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+    margin-top: 60px;
+    background-color: #FF0000;
+    transition: 0.3s ease-in-out all;
+}
+
+.hero-banner .cover-bg .item .button-order:hover {
+    color: #FF6347;
+    background-color: #ffffff;
+}
+/* =========== End hero-banner =========== */
+
+/* =========== Start awesome =========== */
+.awesome .title {
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.awesome .title .control-title h1 {
+    color: #FF0000;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.awesome .title .control-title h2 {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.awesome .title .control-title h3 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 60px;
+}
+
+.awesome .row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome .row .col-3 {
+    width: 375px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.12);
+}
+
+.awesome .row .col-3 .card img {
+    width: 335px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.awesome .row .col-3 .card h1 {
+    color: #FF0000;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.awesome .row .col-3 .card h2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.awesome .row .col-3 .card p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.awesome .row .col-3 .card .control-link {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.awesome .row .col-3 .card .control-link .reod-full {
+    text-decoration: none;
+    font-size: 16px;
+    color: #8a2be2;
+}
+
+.awesome .row .col-3 .card .control-link .bloog {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: #FF0000;
+}
+
+.awesome .row .col-3 .card .control-link .bloog:hover {
+    color: #ffffff;
+    background-color: #892be2af;
+}
+/* ============ End awesome ============ */
+
+/* =========== Start footer =========== */
+.footer {
+    padding: 100px 0 40px 0;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.footer .row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row .col-6 {
+    width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.12);
+}
+
+.footer .row .col-3 .card img {
+    width: 335px;
+    object-fit: cover;
+}
+
+.footer .row .col-3 {
+    width: 375px;
+}
+
+.footer .row .col-3 .card .card-top {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.12);
+}
+
+.footer .row .col-3 .card .card-bottom {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.12);
+}
+/* ============ End footer ============ */
+
+.copyright p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px 0;
+    color: white;
+    background-color: #3C3C3C;
+}
